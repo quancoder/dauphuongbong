@@ -56,3 +56,7 @@ $route['translate_uri_dashes'] = FALSE;
 //Dau Ngon
 $route['dau-ngon.html'] = 'daungon/daungon/index';
 
+//Dau Ngon
+$route['cua-hang.html'] = 'cuahang/cuahang/index';
+$route['map'] = 'cuahang/cuahang/map';
+

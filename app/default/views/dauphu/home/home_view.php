@@ -99,9 +99,9 @@
                 <div class="navmenu-wrap">
                     <div class="navmenu-inner">
                         <ul class="navmenu-centent">
-                            <li><a href="#">Đậu ngon</a></li>
-                            <li><a href="#">Out Story</a></li>
-                            <li><a href="#">Mua đậu ở đâu ?</a></li>
+                            <li><a href="<?= site_url('dau-ngon.html')?>">Đậu ngon</a></li>
+                            <li><a href="" style="color: #6ab008;">Out Story</a></li>
+                            <li><a href="<?= site_url('cua-hang.html') ?>">Mua đậu ở đâu ?</a></li>
                         </ul>
                     </div>
                 </div>
