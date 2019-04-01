@@ -32,6 +32,11 @@
         <link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Roboto:300,400,700|Bungee&amp;subset=latin-ext,vietnamese">
         <link href="<?php echo base_url() . "skins/" . ltrim(URI_PATH . '/', '/') . $template_f; ?>common.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="<?php echo base_url(); ?>js/<?php echo ltrim(URI_PATH . '/', '/') . $template_f; ?>common.js"></script>
+
+        <!--bootstrap jquery-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script>
             ladiViewport();
         </script>
