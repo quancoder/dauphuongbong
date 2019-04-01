@@ -1,101 +1,9 @@
-<!DOCTYPE html>
-<!-- saved from url=(0028)http://www.dauphuongbong.vn/ -->
-<html>
-    <head lang="en">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title class="title-site" lp-id="5b1618319066d9507109dc9f">Đậu phụ sạch Ông Bồng - Vị ngậy tự nhiên từ Đậu
-            tương</title>
-        <meta http-equiv="Cache-control" content="no-cache">
-        <meta http-equiv="Expires" content="-1">
-        <meta name="description"
-              content="Công ty TNHH thực phẩm sạch ABC - thương hiệu Đậu phụ Ông Bồng - sản xuất đậu phụ đóng hộp, đậu phụ cho Bếp ăn công nghiệp, nhà hàng, siêu thị tại Hà Nội">
-        <meta name="keywords" content="dau phu, đậu phụ, đậu phụ ông bồng, thực phẩm sạch ABC, bếp ăn công nghiệp">
-        <meta name="viewport" content="user-scalable=no, width=device-width">
-        <script>function ladiViewport() {
-                var width = (window.outerWidth > 0) ? window.outerWidth : screen.width;
-                var content = "user-scalable=no";
-                if (width < 768) {
-                    content += ", width=375";
-                } else {
-                    if (width < 960) {
-                        content += ", width=960";
-                    } else {
-                        content += ", width=device-width";
-                    }
-                }
-                var meta = document.querySelector('meta[name="viewport"]');
-                if (meta == undefined) {
-                    meta = document.createElement('meta');
-                    meta.name = 'viewport';
-                    document.head.prepend(meta);
-                }
-                meta.content = content;
-            }
-            ;
-            ladiViewport();</script>
-        <meta property="og:title" content="Đậu phụ sạch Ông Bồng - Vị ngậy tự nhiên từ Đậu tương">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="http://www.dauphuongbong.vn">
-        <meta property="og:image"
-              content="https://static.ladipage.net/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg">
-        <meta property="og:description"
-              content="Công ty TNHH thực phẩm sạch ABC - thương hiệu Đậu phụ Ông Bồng - sản xuất đậu phụ đóng hộp, đậu phụ cho Bếp ăn công nghiệp, nhà hàng, siêu thị tại Hà Nội">
-        <meta name="format-detection" content="telephone=no">
-        <link rel="shortcut icon" type="image/png"
-              href="https://static.ladipage.net/59eaa147fad86747bdf5b343/logo-ongbong-1528177613.png">
-        <link rel="dns-prefetch">
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-        <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="">
-        <link rel="preconnect" href="https://static.ladipage.net/" crossorigin="">
-        <link rel="preconnect" href="https://api.ladipage.vn/" crossorigin="">
-        <link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Roboto:300,400,700|Bungee&amp;subset=latin-ext,vietnamese">
-        <link href="<?php echo base_url() . "skins/" . ltrim(URI_PATH . '/', '/') . $template_f; ?>common.css" rel="stylesheet" type="text/css" />
-        <style>
-        
-            .navmenu-wrap{
-                background-color: rgba(0,0,0,.5) !important;
-                box-shadow: none !important;
-                border: none !important;
-                position: absolute;
-                overflow: visible;
-                z-index: 1030;
-                width: 100%;
-                top:0px;left: 0px
-            }
-            .navmenu-inner{
-                min-height: 60px;
-                display: flex;
-                align-items: center
-            }
-            .navmenu-inner .container{
-                display: flex;
-                justify-content: center;
-            }
-            .navmenu-centent{
-                list-style: none;
-            }
-            .navmenu-centent li{
-                padding: 5px 20px;
-                float: left;
-            }
-            
-            .navmenu-centent li a{
-                color: #fff;
-                font-weight: 600;
-                text-transform: uppercase;
-                font-size: 17px
-            }
-            .navmenu-centent li:hover a{
-                color: #6ab008
-            }
-        </style>
-    </head>
-    
-    <body>
-        <div class="ladi-wraper-page"
-             lp-tk="{&quot;idgAny&quot;:&quot;false&quot;,&quot;pixel&quot;:&quot;false&quot;,&quot;idgAds&quot;:&quot;false&quot;}">
+
             <div id="SECTION346" class="widget-section ladi-drop ui-droppable" lp-type="widget_section" lp-widget="widget"
                  lp-lang="SECTION" lp-display="block">
+                <div class="navmenu-wrap-mobile">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <div class="container">
                     <div id="HEADLINE298" class="widget-element widget-snap" lp-type="textinline" lp-editor="true"
                          lp-lang="HEADLINE" lp-display="block"><h2 class="widget-content" lp-node="h2"><span color=""
@@ -190,13 +98,11 @@
                 
                 <div class="navmenu-wrap">
                     <div class="navmenu-inner">
-                        <div class="container">
-                            <ul class="navmenu-centent">
-                                <li><a href="#">Đậu ngon</a></li>
-                                <li><a href="#">Out Story</a></li>
-                                <li><a href="#">Mua đậu ở đâu ?</a></li>
-                            </ul>
-                        </div>
+                        <ul class="navmenu-centent">
+                            <li><a href="#">Đậu ngon</a></li>
+                            <li><a href="#">Out Story</a></li>
+                            <li><a href="#">Mua đậu ở đâu ?</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -453,7 +359,7 @@
                 <div class="container">
                     <div id="HEADLINE46" class="widget-element widget-snap" lp-type="textinline" lp-editor="true"
                          lp-lang="HEADLINE" lp-display="block"><h2 class="widget-content" lp-node="h2"><span
-                                style="color: rgb(43, 43, 43);">Giải pháp Đậu phụ</span><br>Đóng hộp</h2></div>
+                                style="color: rgb(43, 43, 43);">Giải pháp Đậu phụ</span><br>Đóng hộp</h2></div>
                     <div id="IMAGE47" class="widget-element widget-snap ladi-drop" lp-type="image" lp-lang="IMAGE"
                          lp-display="block">
                         <div class="widget-content">

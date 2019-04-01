@@ -53,5 +53,6 @@ $route['default_controller'] = 'dashboard/dashboard/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['book'] = 'dashboard/dashboard/book';
+//Dau Ngon
+$route['dau-ngon.html'] = 'daungon/daungon/index';
 

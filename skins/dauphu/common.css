@@ -552,7 +552,7 @@ div[lp-type=line] .widget-content .line {
 }
 
 .closePop {
-    background: url(https://static.ladipage.net/source/icon.png) no-repeat;
+    background: url(images/icon.png) no-repeat;
     background-position-y: -76px;
     cursor: pointer;
     top: 10px !important;
@@ -644,7 +644,7 @@ div[lp-type=line] .widget-content .line {
 }
 
 .control-slider-left, .control-slider-right {
-    background: url(https://static.ladipage.net/source/arrows.svg) no-repeat;
+    background: url(images/arrows.svg) no-repeat;
     height: 48px;
     width: 48px;
     position: absolute;
@@ -1010,7 +1010,7 @@ body {
     opacity: 1;
     width: 48px !important;
     height: 48px !important;
-    background: url(https://static.ladipage.net/source/arrows.svg) no-repeat;
+    background: url(images/arrows.svg) no-repeat;
     background-position-x: -96px;
     z-index: 9999
 }
@@ -1940,7 +1940,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s300x300/57b167c9ca57d39c18a1c57c/12.png");
+        background-image: url("images/12.png");
     }
 
     #IMAGE297 {
@@ -2048,11 +2048,11 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s400x400/59eaa147fad86747bdf5b343/logo-ongbong-1528177613.png");
+        background-image: url("images/logo-ongbong-1528177613.png");
     }
 
     #IMAGE353 {
-        top: 30px;
+        top: 100px;
         left: 763.312px;
         width: 194.65625px;
         height: 193px;
@@ -2090,7 +2090,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s300x300/57b167c9ca57d39c18a1c57c/5-108230.png");
+        background-image: url("images/5-108230.png");
     }
 
     #IMAGE33 {
@@ -2164,7 +2164,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s450x350/59eaa147fad86747bdf5b343/do-tuong-1529048702.jpg");
+        background-image: url("images/do-tuong-1529048702.jpg");
     }
 
     #IMAGE38 {
@@ -2212,7 +2212,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s450x350/59eaa147fad86747bdf5b343/nuoc-sach-1529048857.jpg");
+        background-image: url("images/nuoc-sach-1529048857.jpg");
     }
 
     #IMAGE44 {
@@ -2240,7 +2240,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s750x600/59eaa147fad86747bdf5b343/dauphu-mo1-1529485434.jpg");
+        background-image: url("images/dauphu-mo1-1529485434.jpg");
     }
 
     #IMAGE466 {
@@ -2594,7 +2594,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s250x300/57b167c9ca57d39c18a1c57c/7-371067.png");
+        background-image: url("images/7-371067.png");
     }
 
     #IMAGE47 {
@@ -2622,7 +2622,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s750x650/59eaa147fad86747bdf5b343/hop-dau-moi-1543467554.png");
+        background-image: url("images/hop-dau-moi-1543467554.png");
     }
 
     #IMAGE372 {
@@ -2637,7 +2637,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s400x350/59eaa147fad86747bdf5b343/chung-nhan-1529482416.png");
+        background-image: url("images/chung-nhan-1529482416.png");
     }
 
     #IMAGE379 {
@@ -3040,7 +3040,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s350x350/59eaa147fad86747bdf5b343/logo-ongbong-1528177613.png");
+        background-image: url("images/logo-ongbong-1528177613.png");
     }
 
     #IMAGE398 {
@@ -3114,7 +3114,7 @@ body {
 
 #SECTION346 {
     display: block;
-    background-image: url("https://static.ladipage.net/s1440x1000/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg");
+    background-image: url("images/dau-phu-ong-bong-1529478513.jpg");
     background-color: rgba(255, 255, 255, 0);
     background-origin: content-box;
     background-size: cover;
@@ -3144,7 +3144,7 @@ body {
 
 #SECTION45 {
     display: block;
-    background-image: url("https://static.ladipage.net/s1440x650/57b167c9ca57d39c18a1c57c/bg-3-256259.jpg");
+    background-image: url("images/bg-3-256259.jpg");
     background-color: rgba(255, 253, 231, 1);
     background-origin: content-box;
     background-size: cover;
@@ -3164,7 +3164,7 @@ body {
 
 #SECTION418 {
     display: block;
-    background-image: url("https://static.ladipage.net/s1440x850/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
+    background-image: url("images/dau-phu-1529484660.jpg");
     background-color: rgba(255, 255, 255, 0);
     background-origin: content-box;
     background-size: cover;
@@ -3179,7 +3179,7 @@ body {
 
 #SECTION384 {
     display: block;
-    background-image: url("https://static.ladipage.net/s1440x500/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
+    background-image: url("images/khay-dau-1529479670.jpg");
     background-color: rgba(76, 175, 80, 0.68);
     background-origin: content-box;
     background-size: cover;
@@ -3997,7 +3997,7 @@ body {
 }
 
 #BOX362 > .widget-content {
-    background-image: url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-nhoi-sot-me-1529479465.jpg");
+    background-image: url("images/dau-nhoi-sot-me-1529479465.jpg");
     background-origin: content-box;
     background-size: cover;
     background-attachment: scroll;
@@ -4080,7 +4080,7 @@ body {
 }
 
 #BOX366 > .widget-content {
-    background-image: url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
+    background-image: url("images/khay-dau-1529479670.jpg");
     background-origin: content-box;
     background-size: cover;
     background-attachment: scroll;
@@ -4163,7 +4163,7 @@ body {
 }
 
 #BOX370 > .widget-content {
-    background-image: url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-ran-1529479762.jpg");
+    background-image: url("images/dau-ran-1529479762.jpg");
     background-origin: content-box;
     background-size: cover;
     background-attachment: scroll;
@@ -5192,7 +5192,20 @@ body {
     line-height: 18px;
 }
 
+#bg-navs{
+    display: block;
+    background-image: url(images/bg-tofu-tips-hero.jpg);
+    background-color: rgba(255, 255, 255, 0);
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: repeat;
+}
+
 @media (max-width: 767px) {
+    .navmenu-wrap-mobile{display: block !important}
+    .navmenu-wrap{display: none !important}
     body {
         position: relative;
     }
@@ -5204,7 +5217,7 @@ body {
 
     #SECTION346 {
         display: block;
-        background-image: url("https://static.ladipage.net/s600x1300/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg");
+        background-image: url("images/dau-phu-ong-bong-1529478513.jpg");
         background-color: rgba(255, 255, 255, 0);
         background-origin: content-box;
         background-size: cover;
@@ -5223,11 +5236,11 @@ body {
     }
 
     #SECTION346 {
-        background-image: linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("https://static.ladipage.net/s600x1300/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg");
-        background-image: -o-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("https://static.ladipage.net/s600x1300/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg");
-        background-image: -ms-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("https://static.ladipage.net/s600x1300/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg");
-        background-image: -moz-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("https://static.ladipage.net/s600x1300/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg");
-        background-image: -webkit-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("https://static.ladipage.net/s600x1300/59eaa147fad86747bdf5b343/dau-phu-ong-bong-1529478513.jpg");
+        background-image: linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("images/dau-phu-ong-bong-1529478513.jpg");
+        background-image: -o-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("images/dau-phu-ong-bong-1529478513.jpg");
+        background-image: -ms-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("images/dau-phu-ong-bong-1529478513.jpg");
+        background-image: -moz-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("images/dau-phu-ong-bong-1529478513.jpg");
+        background-image: -webkit-linear-gradient(rgba(93, 64, 55, 0.51), rgba(93, 64, 55, 0.51)), url("images/dau-phu-ong-bong-1529478513.jpg");
         background-origin: content-box;
         background-size: cover;
         background-attachment: scroll;
@@ -5294,7 +5307,7 @@ body {
 
     #SECTION45 {
         display: block;
-        background-image: url("https://static.ladipage.net/s600x800/57b167c9ca57d39c18a1c57c/bg-3-256259.jpg");
+        background-image: url("images/bg-3-256259.jpg");
         background-color: rgba(255, 253, 231, 1);
         background-origin: content-box;
         background-size: auto 100%;
@@ -5313,7 +5326,7 @@ body {
     }
 
     #SECTION45 {
-        background-image: url("https://static.ladipage.net/s600x800/57b167c9ca57d39c18a1c57c/bg-3-256259.jpg");
+        background-image: url("images/bg-3-256259.jpg");
         background-origin: content-box;
         background-size: auto 100%;
         background-attachment: scroll;
@@ -5337,7 +5350,7 @@ body {
 
     #SECTION418 {
         display: block;
-        background-image: url("https://static.ladipage.net/s600x1400/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
+        background-image: url("images/dau-phu-1529484660.jpg");
         background-color: rgba(255, 255, 255, 0);
         background-origin: content-box;
         background-size: auto 100%;
@@ -5356,11 +5369,11 @@ body {
     }
 
     #SECTION418 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://static.ladipage.net/s600x1400/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
-        background-image: -o-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://static.ladipage.net/s600x1400/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
-        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://static.ladipage.net/s600x1400/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
-        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://static.ladipage.net/s600x1400/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
-        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://static.ladipage.net/s600x1400/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("images/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
+        background-image: -o-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("images/59eaa147fad86747bdf5b343/dau-phu-1529484660.jpg");
+        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("images/dau-phu-1529484660.jpg");
+        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("images/dau-phu-1529484660.jpg");
+        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("images/dau-phu-1529484660.jpg");
         background-origin: content-box;
         background-size: auto 100%;
         background-attachment: scroll;
@@ -5370,7 +5383,7 @@ body {
 
     #SECTION384 {
         display: block;
-        background-image: url("https://static.ladipage.net/s600x700/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
+        background-image: url("images/khay-dau-1529479670.jpg");
         background-color: rgba(76, 175, 80, 0.68);
         background-origin: content-box;
         background-size: cover;
@@ -5389,11 +5402,11 @@ body {
     }
 
     #SECTION384 {
-        background-image: linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("https://static.ladipage.net/s600x700/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -o-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("https://static.ladipage.net/s600x700/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -ms-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("https://static.ladipage.net/s600x700/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -moz-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("https://static.ladipage.net/s600x700/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -webkit-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("https://static.ladipage.net/s600x700/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
+        background-image: linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("images/khay-dau-1529479670.jpg");
+        background-image: -o-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("images/khay-dau-1529479670.jpg");
+        background-image: -ms-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("images/khay-dau-1529479670.jpg");
+        background-image: -moz-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("images/khay-dau-1529479670.jpg");
+        background-image: -webkit-linear-gradient(rgba(27, 94, 32, 0.87), rgba(27, 94, 32, 0.87)), url("images/khay-dau-1529479670.jpg");
         background-origin: content-box;
         background-size: cover;
         background-attachment: scroll;
@@ -5432,7 +5445,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s300x300/57b167c9ca57d39c18a1c57c/12.png");
+        background-image: url("images/12.png");
     }
 
     #IMAGE297 {
@@ -5541,7 +5554,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s400x400/59eaa147fad86747bdf5b343/logo-ongbong-1528177613.png");
+        background-image: url("images/logo-ongbong-1528177613.png");
     }
 
     #IMAGE353 {
@@ -5583,7 +5596,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s300x300/57b167c9ca57d39c18a1c57c/5-108230.png");
+        background-image: url("images/5-108230.png");
     }
 
     #IMAGE33 {
@@ -5657,7 +5670,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s450x350/59eaa147fad86747bdf5b343/do-tuong-1529048702.jpg");
+        background-image: url("images/do-tuong-1529048702.jpg");
     }
 
     #IMAGE38 {
@@ -5705,7 +5718,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s450x350/59eaa147fad86747bdf5b343/nuoc-sach-1529048857.jpg");
+        background-image: url("images/nuoc-sach-1529048857.jpg");
     }
 
     #IMAGE44 {
@@ -5733,7 +5746,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s500x450/59eaa147fad86747bdf5b343/dauphu-mo1-1529485434.jpg");
+        background-image: url("images/dauphu-mo1-1529485434.jpg");
     }
 
     #IMAGE466 {
@@ -5990,11 +6003,11 @@ body {
     }
 
     #BOX362 > .widget-content {
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-nhoi-sot-me-1529479465.jpg");
-        background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-nhoi-sot-me-1529479465.jpg");
-        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-nhoi-sot-me-1529479465.jpg");
-        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-nhoi-sot-me-1529479465.jpg");
-        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-nhoi-sot-me-1529479465.jpg");
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-nhoi-sot-me-1529479465.jpg");
+        background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-nhoi-sot-me-1529479465.jpg");
+        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-nhoi-sot-me-1529479465.jpg");
+        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-nhoi-sot-me-1529479465.jpg");
+        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-nhoi-sot-me-1529479465.jpg");
         background-origin: content-box;
         background-size: cover;
         background-attachment: scroll;
@@ -6043,11 +6056,11 @@ body {
     }
 
     #BOX366 > .widget-content {
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
-        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/khay-dau-1529479670.jpg");
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/khay-dau-1529479670.jpg");
+        background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/khay-dau-1529479670.jpg");
+        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/khay-dau-1529479670.jpg");
+        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/khay-dau-1529479670.jpg");
+        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/khay-dau-1529479670.jpg");
         background-origin: content-box;
         background-size: cover;
         background-attachment: scroll;
@@ -6096,11 +6109,11 @@ body {
     }
 
     #BOX370 > .widget-content {
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-ran-1529479762.jpg");
-        background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-ran-1529479762.jpg");
-        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-ran-1529479762.jpg");
-        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-ran-1529479762.jpg");
-        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://static.ladipage.net/s450x450/59eaa147fad86747bdf5b343/dau-ran-1529479762.jpg");
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-ran-1529479762.jpg");
+        background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-ran-1529479762.jpg");
+        background-image: -ms-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-ran-1529479762.jpg");
+        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-ran-1529479762.jpg");
+        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/dau-ran-1529479762.jpg");
         background-origin: content-box;
         background-size: cover;
         background-attachment: scroll;
@@ -6126,7 +6139,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s250x300/57b167c9ca57d39c18a1c57c/7-371067.png");
+        background-image: url("images/7-371067.png");
     }
 
     #IMAGE47 {
@@ -6154,7 +6167,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s600x500/59eaa147fad86747bdf5b343/hop-dau-moi-1543467554.png");
+        background-image: url("images/hop-dau-moi-1543467554.png");
     }
 
     #IMAGE372 {
@@ -6169,7 +6182,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s350x350/59eaa147fad86747bdf5b343/chung-nhan-1529482416.png");
+        background-image: url("images/chung-nhan-1529482416.png");
     }
 
     #IMAGE379 {
@@ -6572,7 +6585,7 @@ body {
         height: 100%;
         background-position: center center;
         background-size: cover;
-        background-image: url("https://static.ladipage.net/s350x350/59eaa147fad86747bdf5b343/logo-ongbong-1528177613.png");
+        background-image: url("images/logo-ongbong-1528177613.png");
     }
 
     #IMAGE398 {
@@ -6656,4 +6669,101 @@ body {
 }
 .menu{
     padding: 5px;
+}
+
+.navmenu-wrap{
+    background-color: rgba(0,0,0,.5) !important;
+    box-shadow: none !important;
+    border: none !important;
+    position: absolute;
+    overflow: visible;
+    z-index: 1030;
+    width: 100%;
+    top:0px;left: 0px
+}
+.navmenu-inner{
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.navmenu-centent{
+    list-style: none;
+    position: relative;
+}
+.navmenu-centent li{
+    padding: 5px 20px;
+    float: left;
+}
+
+.navmenu-centent li a{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px
+}
+.navmenu-centent li:hover a{
+    color: #6ab008
+}
+
+
+
+.modal-mb-on {
+    opacity: 1;
+}
+.navmenu-wrap-mobile{
+    display: none
+}
+.navmenu-wrap-mobile i{
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    font-size: 30px;
+    left: 3px;
+    cursor: pointer
+}
+.modal-mb {
+    background-color: rgba(58, 58, 58, 0.96);
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    z-index:10000;
+    padding: 100px 0;
+
+}
+.modal-esc {
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    display: block;
+    z-index: 2;
+    color: #b5b5b5;
+    font-size: 25px;
+}
+
+.modal-mb .navmenu-centent-mb{
+    margin: 0 auto;
+    width: 280px;
+    list-style: none;
+}
+.modal-mb .navmenu-centent-mb li{
+    padding: 15px 20px;
+    margin: 0 auto;
+    width: 280px;
+    list-style: none;
+    text-align: center;
+}
+.modal-mb .navmenu-centent-mb li a{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px
+}
+.modal-mb .navmenu-centent-mb li:hover a{
+    color: #6ab008
 }

@@ -19,7 +19,7 @@
                             Minh, Phúc Diễn, Bắc Từ Liêm, Hà Nội<br>Hotline: <a target="_blank"
                                                                                 style="color: rgb(255, 193, 7);">0942 471
                                     988</a><br>Email: lienhe@dauphuongbong.vn<br>Website: <a target="_blank"
-                                                                                         style="color: rgb(255, 193, 7);">www.DauphuOngBong.vn</a>
+                                                                                         style="color: rgb(255, 193, 7);">www.dauphuongbong.vn</a>
                                         </p></div>
                                         <div id="GROUP391" class="widget-element widget-snap widget-group" lp-type="widget_group"
                                              lp-lang="GROUP" lp-display="block" lp-group="GROUP389">
