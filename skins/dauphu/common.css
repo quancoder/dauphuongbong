@@ -6767,3 +6767,31 @@ body {
 .modal-mb .navmenu-centent-mb li:hover a{
     color: #6ab008
 }
+
+/*MAP*/
+
+#main-map #left-map .title-result-map{
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background: #fafafa;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#main-map #left-map .list-result-map{
+    border-bottom: dotted 1px #ccc;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+}
+#main-map #left-map .list-result-map:hover{
+    background: #fafafa;
+    border-bottom: dotted 1px #fafafa;
+}
+
+#main-map #left-map .list-result-map .title{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #049100;
+}

@@ -1,5 +1,5 @@
 <?php
-//define('CUSTOM_CHECK_GLB', 'glb');
+define('CUSTOM_CHECK_GLB', 'glb');
 /**
  * CodeIgniter
  *
@@ -298,8 +298,8 @@ switch (ENVIRONMENT)
  * --------------------------------------------------------------------
  *
  */
-//require_once('glb/cfglb.php');
-    define('HTTP_PROTOCOL', 'http');
+require_once('glb/cfglb.php');
+    //define('HTTP_PROTOCOL', 'http');
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE

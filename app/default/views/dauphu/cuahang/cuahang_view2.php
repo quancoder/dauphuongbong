@@ -52,7 +52,6 @@
         }
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg945v29-ecA_WktGp3cXxK8e6Y34if3Y
-        &callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg945v29-ecA_WktGp3cXxK8e6Y34if3Y&callback=initMap" async defer></script>
 </body>
 </html>
