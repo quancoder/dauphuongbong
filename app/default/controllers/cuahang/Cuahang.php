@@ -16,8 +16,4 @@ class Cuahang extends MY_Controller {
         $this->load->view($this->_template_f . 'cuahang/cuahang_view');
         $this->_loadFooter();
     }
-
-    function map() {
-        $this->load->view($this->_template_f . 'cuahang/cuahang_view2');
-    }
 }
