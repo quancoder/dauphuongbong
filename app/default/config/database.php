@@ -86,11 +86,11 @@ if(!defined('USE_DB_SLAVE'))
 }
 
 $db['default'] = array(
-    'dsn'	=> 'mysql:host=' . DB_DAU_PHU_HOST . ';dbname=' . DB_DAU_PHU_DBNAME,
-    'hostname' => DB_DAU_PHU_HOST,
-    'username' => DB_DAU_PHU_USER,
-    'password' => DB_DAU_PHU_PASS,
-    'database' => DB_DAU_PHU_DBNAME,
+    'dsn'	=> 'mysql:host=' . DB_DAUPHU_MASTER_HOST . ';dbname=' . DB_DAUPHU_MASTER_DBNAME,
+    'hostname' => DB_DAUPHU_MASTER_HOST,
+    'username' => DB_DAUPHU_MASTER_USER,
+    'password' => DB_DAUPHU_MASTER_PASS,
+    'database' => DB_DAUPHU_MASTER_DBNAME,
     'dbdriver' => 'pdo',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -109,11 +109,11 @@ $db['default'] = array(
 );
 $db['slave'] = array(
     array(
-        'dsn' => 'mysql:host=' . DB_DAU_PHU_HOST . ';dbname=' . DB_DAU_PHU_DBNAME,
-        'hostname' => DB_DAU_PHU_HOST,
-        'username' => DB_DAU_PHU_USER,
-        'password' => DB_DAU_PHU_PASS,
-        'database' => DB_DAU_PHU_DBNAME,
+        'dsn' => 'mysql:host=' . DB_DAUPHU_SLAVE_HOST . ';dbname=' . DB_DAUPHU_SLAVE_DBNAME,
+        'hostname' => DB_DAUPHU_SLAVE_HOST,
+        'username' => DB_DAUPHU_SLAVE_USER,
+        'password' => DB_DAUPHU_SLAVE_PASS,
+        'database' => DB_DAUPHU_SLAVE_DBNAME,
         'dbdriver' => 'pdo',
         'dbprefix' => '',
         'pconnect' => FALSE,

@@ -7,21 +7,19 @@ class Product_model extends CI_Model
         parent::__construct();
     }
 
-	function get_list_product()
+	function dp_product_get_all()
 	{
 		$data = array();
-        $iconn = $this->db->conn_id;
-        var_dump($iconn);die;
-        $sql = "CALL adn_user_payment_current_info(:user_id)";
+        $iconn = $this->db_slave->conn_id;
+        $sql = "CALL dp_product_get_all()";
         $stmt = $iconn->prepare($sql);
         if($stmt)
         {
-            $stmt->bindParam(':user_id', $userid, PDO::PARAM_STR);
             if($stmt->execute())
             {
                 if($stmt->rowCount() > 0)
                 {
-                    $data = $stmt->fetch(PDO::FETCH_ASSOC);
+                    $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 }
                 $stmt->closeCursor();
             }
