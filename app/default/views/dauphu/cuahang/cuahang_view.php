@@ -59,7 +59,7 @@
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
                         <label class="text-white font-weight-bold">Quận/Huyện</label>
                         <select class="form-control" id="slcCounty">
-                            <option value="4" class="banner-city">Hà Nội</option>
+                            <option value="4" class="banner-city">Ba Đình</option>
                             <option value="5" class="banner-city">Bắc Ninh</option>
                         </select>
                     </div>
@@ -195,37 +195,33 @@
                         <div id="right-map" class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-9 mb-3">
                             <div id="map" style="max-width: 100%; min-height: 600px;"></div>
                             <script>
+                                var ha_noi = {center: {lat:21.028511, lng:105.804817}, zoom:11.7};
+                                var quan_ba_dinh = {center: {lat:21.0358791, lng:105.8121224}, zoom:14};
+
+
                                 var map;
                                 function initMap() {
                                     map = new google.maps.Map(document.getElementById('map'), {
-                                        center: {lat: 21.0227788, lng: 105.8194541},
-                                        zoom: 11
+                                        center: ha_noi.center,
+                                        zoom: ha_noi.zoom
                                     });
 
                                     //call marker function
-                                    addMarker({lat:21.0127788,lng:105.799939});
-                                    addMarker({lat:21.0227788,lng:105.799939});
-                                    addMarker({lat:21.0327788,lng:105.799939});
-                                    addMarker({lat:21.0427788,lng:105.799939});
+                                    addMarker({lat:21.036760,lng:105.8144823});
+                                    addMarker({lat:21.034361,lng:105.8323363});
+                                    addMarker({lat:21.034676,lng:105.8337943});
+                                    addMarker({lat:21.021063,lng:105.8095043});
 
-                                    addMarker({lat:21.0127788,lng:105.719939});
-                                    addMarker({lat:21.0227788,lng:105.729939});
-                                    addMarker({lat:21.0327788,lng:105.739939});
-                                    addMarker({lat:21.0427788,lng:105.749939});
+                                }
 
-                                    addMarker({lat:21.0117788,lng:105.700939});
-                                    addMarker({lat:21.0227788,lng:105.710939});
-                                    addMarker({lat:21.0337788,lng:105.720939});
-                                    addMarker({lat:21.0447788,lng:105.730939});
+                                //add marker function
+                                function addMarker(coords){
 
-                                    //add marker function
-                                    function addMarker(coords){
-                                        var marker = new google.maps.Marker({
-                                            position:coords,
-                                            map:map,
-                                            icon:'images/shoppingcart_pinlet-2-medium.png',
-                                        });
-                                    }
+                                    var marker = new google.maps.Marker({
+                                        position:coords,
+                                        map:map,
+                                        icon:'images/logo-icon-map.png',
+                                    });
                                 }
                             </script>
                             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg945v29-ecA_WktGp3cXxK8e6Y34if3Y&callback=initMap" async defer></script>
