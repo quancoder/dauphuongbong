@@ -59,7 +59,8 @@ $route['dau-ngon.html'] = 'daungon/daungon/index';
 //Cua Hang - Map Google
 $route['cua-hang.html'] = 'cuahang/cuahang/index';
 
-//Admin - Map
-$route['admin/map'] = 'admin/admin/map';
+//Admin - SHOP
+$route['admin/shop'] = 'admin/admin/shop';
+
 $route['admin/login'] = 'admin/admin/login';
 

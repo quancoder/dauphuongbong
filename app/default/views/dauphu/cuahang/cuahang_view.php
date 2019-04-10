@@ -193,17 +193,19 @@
                             </div>
                         </div>
                         <div id="right-map" class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-9 mb-3">
-                            <div id="map" style="max-width: 100%; min-height: 600px;"></div>
+                            <div id="map" style="max-width: 100%; min-height: 700px;"></div>
                             <script>
                                 var ha_noi = {center: {lat:21.028511, lng:105.804817}, zoom:11.7};
-                                var quan_ba_dinh = {center: {lat:21.0358791, lng:105.8121224}, zoom:14};
+                                var quan_ba_dinh = {center: {lat:21.0358791, lng:105.8121224}, zoom:13};
+                                var quan_cau_giay = {center: {lat:21.0287, lng:105.773}, zoom:13};
 
+                                var bac_ninh = {center: {lat:21.18608, lng:106.07631}, zoom:11.7};
 
                                 var map;
                                 function initMap() {
                                     map = new google.maps.Map(document.getElementById('map'), {
-                                        center: ha_noi.center,
-                                        zoom: ha_noi.zoom
+                                        center: quan_ba_dinh.center,
+                                        zoom: quan_ba_dinh.zoom
                                     });
 
                                     //call marker function

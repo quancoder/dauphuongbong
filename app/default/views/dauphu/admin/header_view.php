@@ -6,17 +6,18 @@
     <title>Admin</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="<?= base_url() ?>/admin_source/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- REQUIRED CSS SCRIPTS -->
+    <link rel="stylesheet" href="<?= base_url() ?>admin_source/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Bootstrap 3.3.7 -->
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin_source/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>admin_source/font-awesome/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin_source/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>admin_source/Ionicons/css/ionicons.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin_source/dist/css/AdminLTE.min.css">
-    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
-          page. However, you can choose any other skin. Make sure you
-          apply the skin class to the body tag so the changes take effect. -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin_source/dist/css/skin-blue.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>admin_source/dist/css/AdminLTE.min.css">
+
+    <link rel="stylesheet" href="<?= base_url() ?>admin_source/dist/css/skin-blue.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +31,16 @@
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     <link rel="shortcut icon" type="image/png"
-          href="<?= base_url() ?>/admin_source/dist/img/logo-ongbong-1528177613.png">
+          href="<?= base_url() ?>admin_source/dist/img/logo-ongbong-1528177613.png">
+
+
+    <!-- REQUIRED JS SCRIPTS -->
+    <!-- jQuery 3 -->
+    <script src="<?= base_url() ?>admin_source/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="<?= base_url() ?>admin_source/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="<?= base_url() ?>admin_source/dist/js/adminlte.min.js"></script>
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -61,7 +71,7 @@
                         <!-- Menu Toggle Button -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <!-- The user image in the navbar-->
-                            <img src="<?= base_url() ?>/admin_source/dist/img/logo-ongbong-1528177613.png"
+                            <img src="<?= base_url() ?>admin_source/dist/img/logo-ongbong-1528177613.png"
                                  class="user-image" alt="User Image">
                             <!-- hidden-xs hides the username on small devices so only the image appears. -->
                             <span class="hidden-xs">Admin</span>
@@ -69,7 +79,7 @@
                         <ul class="dropdown-menu">
                             <!-- The user image in the menu -->
                             <li class="user-header">
-                                <img src="<?= base_url() ?>/admin_source/dist/img/logo-ongbong-1528177613.png"
+                                <img src="<?= base_url() ?>admin_source/dist/img/logo-ongbong-1528177613.png"
                                      class="img-circle" alt="User Image">
 
                                 <p>
@@ -98,7 +108,7 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="<?= base_url() ?>/admin_source/dist/img/logo-ongbong-1528177613.png" class="img-circle"
+                    <img src="<?= base_url() ?>admin_source/dist/img/logo-ongbong-1528177613.png" class="img-circle"
                          alt="User Image">
                 </div>
                 <div class="pull-left info">
@@ -114,7 +124,7 @@
                 <!-- Optionally, you can add icons to the links -->
                 <li><a href="#"><i class="glyphicon glyphicon-cutlery"></i> <span>Quản lý sản phẩm</span></a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-list-alt"></i> <span>Quản lý tin tức</span></a></li>
-                <li class="active"><a href="#"><i class="glyphicon glyphicon-map-marker"></i> <span>Quản lý Maps</span></a></li>
+                <li class="active"><a href="#"><i class="glyphicon glyphicon-map-marker"></i> <span>Quản lý cửa hàng</span></a></li>
                 <li><a href="#"><i class="fa fa-link"></i> <span>Đối tác tiêu biểu</span></a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-user"></i> <span>Đổi  mật khẩu</span></a></li>
             </ul>
