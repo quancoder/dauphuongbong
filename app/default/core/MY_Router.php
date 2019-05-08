@@ -13,6 +13,24 @@ class MY_Router extends CI_Router {
 		{
 			show_error('Unable to determine what should be displayed. A default route has not been specified in the routing file.');
 		}
+		
+		/*
+		// Is the method being specified?
+		if (sscanf($this->default_controller, '%[^/]/%s', $class, $method) !== 2)
+		{
+			$method = 'index';
+		}
+
+		if ( ! file_exists(APPPATH.'controllers/'.$this->directory.ucfirst($class).'.php'))
+		{
+			// This will trigger 404 later
+			return;
+		}
+
+		$this->set_class($class);
+		$this->set_method($method);
+		*/
+		
 		// modify by toannh
 		$arr = explode('/', $this->default_controller);
 		if(isset($arr[2]))
@@ -39,29 +57,14 @@ class MY_Router extends CI_Router {
 			// This will trigger 404 later
 			return;
 		}
-		/*
-		// Is the method being specified?
-		if (sscanf($this->default_controller, '%[^/]/%s', $class, $method) !== 2)
-		{
-			$method = 'index';
-		}
 		
-		if ( ! file_exists(APPPATH.'controllers/'.$this->directory.ucfirst($class).'.php'))
-		{
-			// This will trigger 404 later
-			return;
-		}
-
-		$this->set_class($class);
-		$this->set_method($method);
-		*/
-
 		// Assign routed segments, index starting from 1
 		$this->uri->rsegments = array(
 			1 => $this->class,
 			2 => $this->method
 		);
+		
 
-		log_message('debug', 'No URI present. Default controller set.');
+		//log_message('debug', 'No URI present. Default controller set.');
 	}
 }

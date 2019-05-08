@@ -17,11 +17,12 @@ class Admin extends MY_Controller {
         $this->load->view($this->_template_f . 'admin/login/login_view');
     }
 
-    function shop() {
-        //$data = array();
-        $listShop = $this->Admin_model->get_all_county_by_province(1, 1);
+    function dia_chi() {
+        $data = array();
+        $allProvince = $this->Admin_model->get_all_province(1);
+        $data['allProvince'] = $allProvince;
         $this->load->view($this->_template_f . 'admin/header_view');
-        $this->load->view($this->_template_f . 'admin/shop/shop_view');
+        $this->load->view($this->_template_f . 'admin/dia_chi/dia_chi_view', $data);
         $this->load->view($this->_template_f . 'admin/footer_view');
     }
 }

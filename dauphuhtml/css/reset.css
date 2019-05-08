@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background-color: rgb(242 242 242);
+}
+
+@font-face {
+    font-family: Dessert;
+    src: url('../font/SVN-Dessert Menu Script.ttf');
+}
+
+@font-face {
+    font-family: Colossalis;
+    src: url('../font/UTM Colossalis.ttf');
+}
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+#page{
+}
+
+#head{
+    padding: 30px 0;
+    text-align: center;
+    background-color: white;
+}
+
+#intro{
+    padding: 0;
+    background: url("../img/img-intro.jpg") no-repeat bottom;
+}
+
+#menu{
+    padding: 0;
+    background: black;
+    opacity: 0.6;
+}
+
+#menu ul{
+    padding: 30px 0;
+    margin: 0 0 0 20px;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+
+#menu ul li{
+    margin: 0 30px;
+    display: inline-block;
+    font-family: Dessert;
+    font-size: 22px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#menu ul li.active{
+    color: #ffdd33;
+    border-bottom: 2px solid #ffdd33;
+}
+
+#slogan{
+    padding: 0;
+    margin: 130px 0 250px 0;
+    font-size: 80px;
+    font-family: Dessert;
+    color: white;
+    text-align: center;
+
+}
+
+#chung-nhan{
+    padding: 100px 0;
+    background: url(../img/bg-chung-nhan.jpg) no-repeat bottom;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#chung-nhan .gioi-thieu .title{
+    font-family: Colossalis;
+    font-size: 40px;
+    color: #ffdd33;
+}
+#chung-nhan .gioi-thieu .sapo-title{
+    font-family: Dessert;
+    font-size: 19px;
+    color: white;
+}
+#chung-nhan .gioi-thieu .content{
+    font-family: "Times New Roman";
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    line-height: 2;
+}
+
+#chung-nhan .ve-sinh, #chung-nhan .gia-truyen{
+    height: 250px;
+    padding: 20px 10px 10px 10px;
+    border: 2px dashed rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+#chung-nhan .ve-sinh .title, #chung-nhan .gia-truyen .title{
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+
+}
+#chung-nhan .ve-sinh .content, #chung-nhan .gia-truyen .content{
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+#chung-nhan .ve-sinh .icon, #chung-nhan .gia-truyen .icon{
+    width: 50px;
+    height: 50px;
+    background-color: #66cc00;
+    border-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+#san-pham{
+    background-color: white;
+    padding-top: 50px;
+}
+
+#san-pham .img-san-pham img{
+    width: 95%;
+}
+
+#san-pham .title{
+    background-color: white;
+    color: #543726;
+    font-family: Dessert;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+#san-pham .right .title{
+    color: #543726;
+    font-family: Colossalis;
+    font-size: 30px;
+    padding: 0;
+}
+
+#san-pham .right .sapo{
+    color: #98da7d;
+    font-size: 25px;
+    font-weight: bold;
+}

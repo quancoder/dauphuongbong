@@ -1,0 +1,16 @@
+/* 700px hoặc nhỏ hơn */
+@media screen and (max-width: 700px) {
+    #menu ul{
+        padding: 10px 0;
+        margin: 0;
+    }
+    #menu ul li {
+        margin: 0 10px;
+        font-size: 18px;
+    }
+    #slogan{
+        font-size: 60px;
+    }
+
+
+}
