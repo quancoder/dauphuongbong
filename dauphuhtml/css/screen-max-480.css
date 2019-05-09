@@ -12,5 +12,26 @@
     #slogan{
         font-size: 40px;
     }
+    #chung-nhan .gioi-thieu .content{
+        margin-bottom: 40px;
+    }
+
+    #san-pham{
+        padding-bottom: 10px;
+    }
+    #nguyen-lieu #tuyen-chon{
+        padding-top: 10px;
+    }
+    #nguyen-lieu .content{
+        margin-left: 0;
+    }
+
+    #dau-tuong-sach{
+        margin-right: 17px;
+    }
+
+    #nguon-nuoc{
+        margin-left: 17px;
+    }
 
 }

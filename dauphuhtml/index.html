@@ -2,120 +2,362 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Trang chủ</title>
     <link href="lib/css/bootstrap.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="lib/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.delac.io/wow/css/libs/animate.css">
     <link href="css/reset.css" rel="stylesheet">
-    <link href="css/max-width-700.css" rel="stylesheet">
+
+    <link href="css/max-width-780.css" rel="stylesheet">
     <link href="css/screen-max-480.css" rel="stylesheet">
-    <script src="js/reset.js"></script>
 </head>
 <body>
-    <div id="head">
-        <div class="container-fluid" >
-            <div class="row">
-                <div class="col-12">
-                    <img id="logo" src="img/logo.png">
+<div id="head">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img id="logo" src="img/logo.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="intro" class="wow" style="visibility: visible; animation-name: fadeInUp;">
+    <div class="container-fluid">
+        <div class="row" id="">
+            <div class="col-12" id="menu">
+                <ul>
+                    <li>Món ăn</li>
+                    <li class="active">Out Story</li>
+                    <li>Cửa Hàng</li>
+                </ul>
+            </div>
+            <div class="col-12">
+                <div id="slogan">Đậu Phụ Sạch</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="chung-nhan">
+    <div style="background-color: black;opacity: 0.4;height: 100%;width: 100%;content:'' ;position: absolute;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5">
+                <div class="gioi-thieu">
+                    <div class="title">Đậu Phụ Ông Bồng</div>
+                    <div class="sapo-title">Vị ngậy tự nhiên từ đậu tương</div>
+                    <div class="content">
+                        Xuất phát từ Lò đậu phụ gia truyền có lịch sử lâu đời từ những năm 1932 của làng đậu nức tiếng
+                        Bưởi Quốc, đậu phụ Ông Bồng kế thừa công thức gia truyền và kết hợp với công nghệ hiện đại tạo
+                        ra sản phẩm Đậu phụ vừa giữ nguyên được hương vị truyền thống, vị ngậy tự nhiên từ Đậu tương,
+                        vừa đảm bảo tiêu chuẩn khắt khe về Vệ sinh an toàn thực phẩm.
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-0 col-sm-0 col-md-1">
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3 wow"  data-wow-duration="2s" style="visibility: visible; animation-name: bounceInLeft;">
+                <div class="ve-sinh">
+                    <div style="display: flex;align-items: center;justify-content: center;margin-top: -50px;">
+                        <div class="icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+
+                    <div class="title">Chứng nhận Vệ sinh</div>
+                    <div class="content">Quy trình sản xuất tuân thủ nghiêm ngặt các điều kiện Vệ sinh an toàn thực
+                        phẩm
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3 wow" data-wow-duration="3s" style="visibility: visible; animation-name: bounceInRight;">
+                <div class=" gia-truyen">
+                    <div style="display: flex;align-items: center;justify-content: center;margin-top: -50px;">
+                        <div class="icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="title">Công thức gia truyền</div>
+                    <div class="content">Kế thừa công thức gia truyền, đậu phụ Ông Bồng giữ nguyên được vị ngậy béo từ
+                        đậu tương tự nhiên mà không cần dùng chất bảo quản
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div id="intro">
-        <div class="container-fluid" >
-            <div class="row" id="">
-                <div class="col-12" id="menu">
-                    <ul>
-                        <li>Món ăn</li>
-                        <li class="active">Out Story</li>
-                        <li>Cửa Hàng</li>
-                    </ul>
-                </div>
-                <div class="col-12">
-                    <div id="slogan">Đậu Phụ Sạch</div>
+<div id="san-pham" class="pb-xs-2 pb-sm-2 pb-md-5">
+    <div class="container" style="border: 1px solid #411a00; padding-top: 50px;">
+        <div style="display: flex;align-items: center;justify-content: center;margin-top: -73px;">
+            <div class="title">Sản phẩm (Product)</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 order-2 order-sm-2 order-md-1 left d-flex align-items-end wow" data-wow-duration="2s" style="visibility: visible; animation-name: bounceInLeft;">
+                <img src="img/san-pham-2.jpg" class="img-fluid pb-xs-1">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 order-1 order-sm-1 order-md-2 right">
+                <div class="row mt-md-5 mb-md-5 mb-sm-5">
+                    <div class="col-xs-12 col-sm-12 col-md-3 " style="text-align: center;">
+                        <img src="img/chung-nhan.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-9 ">
+                        <div class="title">GIẢI PHÁP ĐẬU PHỤ</div>
+                        <div class="sapo">ĐÓNG HỘP</div>
+                        <div class="content" style="position: relative">
+                            <div style="font-size: 40px;font-family: initial;font-weight: bold;position: absolute;top: -25px;color: #98da7d;">
+                                “
+                            </div>
+                            <div style="padding-left: 28px">Với giải pháp đóng hộp - không dùng chất bảo quản, giúp cho
+                                <b>Đậu phụ Ông Bồng</b> cung cấp được chất lượng ổn định - không bị tác động bởi môi
+                                trường tới tay người tiêu dùng. Đồng thời giúp đảm bảo tuyệt đối vệ sinh an toàn thực
+                                phẩm và giữ được vị thơm ngon của đậu
+                                <span style="font-size: 40px;font-family: initial;font-weight: bold;color: #98da7d;line-height: 0">”</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div id="chung-nhan" >
-        <div style="background-color: black;opacity: 0.4;height: 100%;width: 100%;content:'' ;position: absolute;" ></div>
-        <div class="container" >
-            <div class="row" >
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <div class="gioi-thieu">
-                        <div class="title">Đậu Phụ Ông Bồng</div>
-                        <div class="sapo-title">Vị ngậy tự nhiên từ đậu tương</div>
+<div id="nguyen-lieu">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 mt-xs-3 mt-sm-3 mt-md-5">
+                <div id="tuyen-chon">
+                    <div class="title">
+                        <img src="img/la-cay.png" class="img-fluid">
+                        <span>Nguyên liệu tuyển chọn </span>
+                    </div>
+                    <div class="content">
+                        Với sứ mệnh tạo ra các sản phẩm sạch, đảm bảo sức khoẻ từ Đậu tương phục vụ người tiêu dùng. Các
+                        nghiên liệu làm nên <b>Đậu phụ Ông Bồng</b> đều được tuyển chọn kỹ lưỡng.
+                        <br/>
+                        Từ những hạt đậu tương mẩy tròn nặng tay, đến nguồn nước trong mát ngọt lành.
+
+                        <div class="cau-chot">Giữ nguyên vị ngậy tự nhiên từ đậu tương</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <div id="dau-tuong-sach" style="position: relative;">
+                    <div class="elipse"></div>
+                    <div class="title">
+                        <img src="img/la-dau-tuong.png" class="mr-1">
+                        <span>Đậu tương sạch</span>
+                    </div>
+                    <div class="content">
+                        Nguồn đậu tương được Nghệ nhân tuyển chọn kỹ lưỡng từ các quốc gia có nền nông nghiệp tiên tiến. Sản phẩm có xuất xứ rõ ràng, tạo sự yên tâm cho khách hàng khi sử dụng
+                    </div>
+                </div>
+                <div id="nguon-nuoc" class="wow" data-wow-duration="3s" style="position: relative; visibility: visible; animation-name: bounceInRight;">
+                    <div class="elipse"></div>
+                    <div class="title">
+                        <img src="img/giot-nuoc.png" class="mr-1">
+                        <span>Nguồn nước</span>
+                    </div>
+                    <div class="content">
+                        Đậu phụ Ông Bồng sử dụng nguồn nước được kiểm soát nghiêm ngặt với hệ thống lọc nước hiện đại, và quy trình kiểm soát chặt chẽ về các chỉ số trước khi đưa vào sản xuất.
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="lich-su">
+    <div class="container">
+        <div id="bong-den">
+            <img src="img/bong-den.png">
+            <span>Sử dụng công nghệ hiện đại mà vẫn giữ nguyên được hương vị của Đậu phụ truyền thống</span>
+        </div>
+        <div id="item-lich-su" class="row" >
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="title">
+                            <img src="img/icon-lich-su.png">
+                            <span>LỊCH SỬ TRUYỀN THỐNG TỪ 1932</span>
+                        </div>
+                        <div class="line-yellow-150w"></div>
                         <div class="content">
-                            Xuất phát từ Lò đậu phụ gia truyền có lịch sử lâu đời từ những năm 1932 của làng đậu nức tiếng Bưởi Quốc, đậu phụ Ông Bồng kế thừa công thức gia truyền và kết hợp với công nghệ hiện đại tạo ra sản phẩm Đậu phụ vừa giữ nguyên được hương vị truyền thống, vị ngậy tự nhiên từ Đậu tương, vừa đảm bảo tiêu chuẩn khắt khe về Vệ sinh an toàn thực phẩm.
+                            Đậu phụ Ông Bồng xuất phát từ Lò đậu phụ gia truyền có lịch sử lâu đời từ những năm 1932 của làng đậu nức tiếng Bưởi Quốc
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="title">
+                            <img src="img/icon-tinh-chat.png">
+                            <span>ĐẬU DẠNG THANH - NHIỀU DA</span>
+                        </div>
+                        <div class="line-yellow-150w"></div>
+                        <div class="content">
+                            Khác với các loại đậu phụ công nghiệp khác, Đậu phụ Ông Bồng làm hình thức như đậu phụ truyền thống, với mặt da xung quanh bìa đậu, tạo độ ròn dai khi chế biến
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-0 col-sm-0 col-md-1">
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-3">
-                    <div class="ve-sinh">
-                        <div style="display: flex;align-items: center;justify-content: center;margin-top: -50px;">
-                            <div class="icon">
-                                <i class="fas fa-check"></i>
-                            </div>
-                        </div>
-
-                        <div class="title">Chứng nhận Vệ sinh</div>
-                        <div class="content">Quy trình sản xuất tuân thủ nghiêm ngặt các điều kiện Vệ sinh an toàn thực phẩm</div>
+                <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 wow" data-wow-duration="3s" style="visibility: visible; animation-name: bounceInLeft;">
+                    <div class="title">
+                        <img src="img/icon-thanh-phan.png">
+                        <span>VỊ NGẬY TỰ NHIÊN TỪ ĐỖ TƯƠNG</span>
+                    </div>
+                    <div class="line-yellow-150w"></div>
+                    <div class="content">
+                        Thành phần của Đậu phụ Ông Bồng chỉ có thành phần chính từ Đỗ tương, không chất bảo quản nên đảm bảo giữ được vị ngậy tự nhiên
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-3">
-                    <div class=" gia-truyen">
-                        <div style="display: flex;align-items: center;justify-content: center;margin-top: -50px;">
-                            <div class="icon">
-                                <i class="fas fa-check"></i>
-                            </div>
-                        </div>
-                        <div class="title">Công thức gia truyền</div>
-                        <div class="content">Kế thừa công thức gia truyền, đậu phụ Ông Bồng giữ nguyên được vị ngậy béo từ đậu tương tự nhiên mà không cần dùng chất bảo quản</div>
+                <div class="col-xs-12 col-sm-12 col-md-6 wow" data-wow-duration="3s" style="visibility: visible; animation-name: bounceInRight;">
+                    <div class="title">
+                        <img src="img/icon-ve-sinh.png">
+                        <span>VỆ SINH - AN TOÀN</span>
+                    </div>
+                    <div class="line-yellow-150w"></div>
+                    <div class="content">
+                        Quy trình sản xuất hiện đại, được kiểm soát chặt chẽ, cộng thêm giải pháp đóng hộp giúp giữ cho Đậu phụ Ông Bồng hoàn toàn đảm bảo vệ sinh, an toàn cho người sử dụng
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <img src="img/hat-dau-tuong-2.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="khach-hang">
+    <div class="container">
+        <div class="head">
+            <div class="title">ĐỐI TƯỢNG KHÁCH HÀNG CHÍNH</div>
+            <div class="sapo">
+                Đậu phụ Ông Bồng có thế mạnh cung cấp sản phẩm
+                <span style="color: #ffcc33">Đậu phụ dạng thanh truyền thống</span>
+                đóng hộp cho Ba nhóm đối tượng khách chính
+            </div>
+        </div>
+        <div class="row body">
+            <div class="col-xs-12 col-sm-4 col-md-4 ">
+                <div class="box-item">
+                    <div class="title">BẾP ĂN CÔNG NGHIỆP</div>
+                    <div class="content">
+                        Cung cấp Đậu phụ đầy đủ giấy tờ vệ sinh An toàn thực phẩm, đóng hộp đảm bảo chất lượng cho các bếp ăn công nghiệp, bếp ăn văn phòng. Quy cách đóng hộp 4kg
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 wow" data-wow-duration="2s" style="visibility: visible; animation-name: bounceInUp;">
+                <div class="box-item active">
+                    <div class="title">CỬA HÀNG THỰC PHẨM</div>
+                    <div class="content">
+                        Chuỗi siêu thị mini, cửa hàng thực phẩm sạch, cửa hàng tiện lợi có bán hàng thực phẩm
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 ">
+                <div class="box-item">
+                    <div class="title">NHÀ HÀNG</div>
+                    <div class="content">
+                        Chuỗi nhà hàng, quán ăn, chuỗi quán bia hơi, có thể lấy dạng hộp 500gr hoặc loại hộp lớn 4kg
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div id="san-pham" >
-        <div class="container" style="border: 1px solid #411a00; padding-top: 50px;">
-            <div style="display: flex;align-items: center;justify-content: center;margin-top: -73px;">
-                <div class="title">Sản phẩm (Product)</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                    <div class="img-san-pham">
-                        <img src="img/san-pham.jpg">
+<div id="lien-he">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="left">
+                    <div class="box-item so-luong">
+                        <img src="img/icon-so-luong.png">
+                        <div class="title">CUNG CẤP SỐ LƯỢNG LỚN</div>
+                        <div class="content">Dây chuyền hiện đại và quy trình sản xuất tối ưu giúp chúng tôi đủ năng lực đáp ứng các đơn hàng lớ</div>
+                    </div>
+                    <div class="box-item van-chuyen">
+                        <img src="img/icon-van-chuyen.png">
+                        <div class="title">VẬN CHUYỂN CHUYÊN NGHIỆP</div>
+                        <div class="content">Miễn phí vận chuyện Nội thành Hà Nội. Cam kết giao hàng nhanh, đúng hẹn</div
+                        ></div>
+                    <div class="box-item on-dinh">
+                        <img src="img/icon-on-dinh.png">
+                        <div class="title">CHẤT LƯỢNG ỔN ĐỊNH</div>
+                        <div class="content">Đảm bảo chất lượng đồng đều, ổn định trong hạn sử dụng của sản phẩm</div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                    <div class="row left">
-                        <div class="col-3">
-                            <img src="img/chung-nhan.jpg">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="right">
+                    <div class="title">LIÊN HỆ NHẬN BÁO GIÁ</div>
+                    <div class="sapo">Liên hệ với chúng tôi để nhận báo giá và chính sách bán hàng cụ thể</div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6"><input type="text" placeholder="Họ và tên"></div>
+                            <div class="col-xs-12 col-sm-12 col-md-6"><input type="text" placeholder="Email"></div>
                         </div>
-                        <div class="col-9 right">
-                            <div class="title">GIẢI PHÁP ĐẬU PHỤ</div>
-                            <div class="sapo">ĐÓNG HỘP</div>
-                            <div class="content">
-                                <span>"
-                                Với giải pháp đóng hộp - không dùng chất bảo quản, giúp cho Đậu phụ Ông Bồng cung cấp được chất lượng ổn định - không bị tác động bởi môi trường tới tay người tiêu dùng. Đồng thời giúp đảm bảo tuyệt đối vệ sinh an toàn thực phẩm và giữ được vị thơm ngon của đậu
-                            </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6"><input type="text" placeholder="Số điện thoại"></div>
+                            <div class="col-xs-12 col-sm-12 col-md-6"><input type="text" placeholder="Tên công ty"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12"><input type="text" placeholder="Địa chỉ"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12"><textarea type="text" placeholder="Để lại lời nhắn cho chúng tôi" rows="6"></textarea></div>
+                        </div>
+
+                        <div class="row wow" data-wow-duration="3s" style="visibility: visible; animation-name: bounceInUp;">
+                            <div class="col-xs-12 col-sm-12 col-md-12"><input type="submit" id=" submit"value="NHẬN BÁO GIÁ" style="background-color: #339900 !important;"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <img src="img/logo.png" class="img-fluid" style="margin-bottom: 20px">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <p class="widget-content" lp-node="p"><span style="font-weight: bold;">CÔNG TY TNHH THỰC PHẨM SẠCH ABC</span><br>Địa chỉ: Số 9 Phúc Minh, Phúc Diễn, Bắc Từ Liêm, Hà Nội<br>Hotline: <a target="_blank" style="color: rgb(255, 193, 7);">0942 471 988</a><br>Email: lienhe@dauphuongbong.vn<br>Website: <a target="_blank" style="color: rgb(255, 193, 7);">www.DauphuOngBong.vn</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <p>Kết nối với chúng tôi</p>
+                <img src="img/icon-google.png">
+                <img src="img/icon-youtube.png">
+                <img src="img/icon-facebook.png">
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px; font-size: 13px">
+            <div class="col-12">© Copyright DauPhuOngBong 2019. All Rights Reserved</div>
+        </div>
+    </div>
+</div>
 </body>
+<!-- Wow -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="lib/js/bootstrap.min.js"></script>
+<script src="js/reset.js"></script>
+<script src="https://www.delac.io/wow/dist/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </html>

@@ -140,7 +140,6 @@ body{
 }
 
 #san-pham .img-san-pham img{
-    width: 95%;
 }
 
 #san-pham .title{
@@ -162,4 +161,306 @@ body{
     color: #98da7d;
     font-size: 25px;
     font-weight: bold;
+}
+
+#san-pham .right .content{
+    line-height:2;
+    text-align: justify;
+}
+
+#nguyen-lieu{
+    background-color: #339900;
+    padding-bottom: 20px;
+}
+
+#tuyen-chon .title{
+    display: flex;
+    align-items: center;
+}
+#tuyen-chon .title img{
+    margin-right: 20px;
+}
+#tuyen-chon .title span{
+    color: white;
+    font-family: Dessert;
+    font-size: 25px;
+}
+
+#tuyen-chon .content{
+    line-height: 2;
+    text-align: justify;
+    color: white;
+    margin-left: 100px;
+}
+
+#tuyen-chon .content .cau-chot{
+    font-family: Dessert;
+    font-size: 20px;
+    color: #99ff99;
+}
+
+#dau-tuong-sach{
+    margin-top: 50px;
+    float: right;
+    width: 335px;
+    height: auto;
+    border: 2px solid #669966;
+    background: white;
+    border-top-left-radius: 40px;
+}
+#dau-tuong-sach .title {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dau-tuong-sach .title span{
+    font-size: 20px;
+    font-family: Dessert;
+    color: #339900
+}
+
+#dau-tuong-sach .elipse{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    border-radius: 50% 50%;
+    top: -30px;
+    right: -28px;
+    box-shadow: -3px 9px 20px -8px grey;
+    background: url('../img/hat-dau-tuong.jpg') 110px 95px;
+}
+
+#dau-tuong-sach .content{
+    padding: 10px;
+    text-align: justify;
+    color: #666666;
+}
+
+#nguon-nuoc{
+    margin-top: 50px;
+    float: left;
+    width: 335px;
+    height: auto;
+    border: 2px solid #669966;
+    background: white;
+    border-bottom-right-radius: 40px;
+}
+#nguon-nuoc .title {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nguon-nuoc .title span{
+    font-size: 20px;
+    font-family: Dessert;
+    color: #339900
+}
+
+#nguon-nuoc .elipse{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    border-radius: 50% 50%;
+    top: -30px;
+    left: -28px;
+    box-shadow: -3px 9px 20px -8px grey;
+    background: url('../img/nguon-nuoc.png') 115px 85px;
+}
+
+#nguon-nuoc .content{
+    padding: 10px;
+    text-align: justify;
+    color: #666666;
+}
+
+#lich-su{
+    padding-top: 20px;
+    background-color: #fff;
+}
+#lich-su #bong-den {
+    margin-bottom: 20px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+#lich-su #bong-den img{
+    margin-right: 20px;
+}
+#lich-su #bong-den span{
+    color: black;
+    font-family: Dessert;
+    font-size: 18px;
+}
+#item-lich-su .title {
+    font-family:Colossalis;
+    font-size: 18px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+#item-lich-su .title img{
+    margin-right: 10px;
+}
+
+#item-lich-su .content{
+    color: #666666;
+}
+
+#item-lich-su .col-md-6{
+    margin-bottom: 20px;
+}
+
+.line-yellow-150w{
+    border-top: 1px solid yellow;
+    width: 150px;
+}
+.line-orange-150w{
+    border-top: 1px solid #ffcc33;
+    width: 150px;
+}
+#khach-hang{
+    background-color: #666666;
+    color: white;
+}
+
+#khach-hang .head{
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 50px 0;
+    text-align: center;
+}
+#khach-hang .head .title{
+    font-size: 25px;
+    font-family: Colossalis;
+    margin-bottom: 10px;
+
+}
+#khach-hang .body{
+    padding-bottom: 40px;
+}
+#khach-hang .body .box-item{
+    cursor: pointer;
+    border: 3px solid #ffcc33;
+    padding: 15px;
+    text-align: center;
+    min-height: 250px;
+    margin-bottom: 10px;
+}
+
+#khach-hang .body .active{
+    background: #ff6600;
+}
+
+#khach-hang .body .box-item .title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom:2px solid #ffcc33;
+
+}
+
+#khach-hang .body .box-item .content{
+    margin-top: 10px;
+}
+
+#lien-he{
+    padding: 40px 0;
+    background:url('../img/bg-lien-he.jpg')  no-repeat center ;
+    background-size: 100%;
+}
+
+#lien-he .left{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+#lien-he .left .box-item{
+    margin-bottom: 20px;
+}
+#lien-he .left .box-item img{
+    margin-bottom: 10px;
+}
+
+#lien-he .left .box-item img{
+    margin-bottom: 10px;
+}
+
+#lien-he .left .box-item .title{
+    font-weight: bold;
+    color: #ffcc33;
+}
+#lien-he .right{
+    text-align: center;
+}
+#lien-he .right .title{
+    font-family: Colossalis;
+    font-size: 25px;
+    font-weight: bold;
+}
+#lien-he .right .sapo{
+    font-size: 15px;
+    color: #585858;
+}
+
+#lien-he .right .content{
+    margin: 30px 0;
+}
+#lien-he .right .content input{
+    color: white;
+    background: none;
+    background: rgb(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+#lien-he .right .content .submit{
+    color: white;
+    border: none;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+::-webkit-input-placeholder { /* Chrome */
+    color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: white;
+    opacity: 1;
+}
+
+#lien-he .right .content textarea{
+    color: white;
+    background: none;
+    background: rgb(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#footer{
+    padding: 40px 0;
+    background-color: #339900;
+    color: white;
 }
