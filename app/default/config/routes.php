@@ -52,9 +52,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'dashboard/dashboard/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
-//Dau Ngon
-$route['dau-ngon.html'] = 'daungon/daungon/index';
-
-//Cua Hang - Map Google
-$route['cua-hang.html'] = 'cuahang/cuahang/index';
+//
+////Dau Ngon
+//$route['dau-ngon.html'] = 'daungon/daungon/index';
+//
+////Cua Hang - Map Google
+//$route['cua-hang.html'] = 'cuahang/cuahang/index';

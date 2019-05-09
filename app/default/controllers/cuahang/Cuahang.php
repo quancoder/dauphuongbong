@@ -11,7 +11,6 @@ class Cuahang extends MY_Controller {
 
     function index() {
         //$data = array();
-
         $this->_loadHeader();
         $this->load->view($this->_template_f . 'cuahang/cuahang_view');
         $this->_loadFooter();
