@@ -465,7 +465,7 @@ body{
 #main-page{
     margin-top: 50px;
 }
-#main-page .title{
+#main-page #left-page .title{
     width: 100%;
     border-bottom: 1px solid #cc6600;
     font-weight: bold;
@@ -486,7 +486,7 @@ body{
 
 #thong-tin{
     margin: 0;
-    padding: 15px;
+    padding: 15px 0;
     border: 1px solid;
 }
 
@@ -543,4 +543,14 @@ body{
 }
 #chi-tiet .chuan-bi .step .content{
     text-align: justify;
+}
+
+#main-page #right-page .title{
+    width: 100%;
+    border-bottom: 1px solid #cc6600;
+    font-weight: bold;
+    font-size: 20px;
+    color: #666866;
+    margin-bottom: 20px;
+    text-align: right;
 }
